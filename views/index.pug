@@ -1,0 +1,19 @@
+doctype html
+head
+link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css')
+link(rel='stylesheet' href='/css/style.css')
+.container.d-flex.p-3.mx-auto.flex-column
+    header.mb-auto
+            .nav-link
+                .custom-control.custom-switch
+                    input#darkSwitch.custom-control-input(type='checkbox')
+                    label.custom-control-label(for='darkSwitch') Dark Mode
+                    p
+                    p#date
+                    p#nswitch
+                    p#status
+                    p#ndarkmode
+                    p#nlightmode
+                script(src='dark-mode-switch.js')
+
+
