@@ -1,6 +1,7 @@
 # esercizio
 you need to have Node.js and npm installed
 https://nodejs.org/en/download/
+
 1- download the repo
 
 2-run this comands:
